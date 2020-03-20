@@ -1,0 +1,11 @@
+src为应用源代码目录；
+webpack为webpack配置目录；
+webpack.config.js为webpack配置入口文件；
+package.json为项目依赖管理文件；
+yarn.lock为项目依赖版本锁文件；
+.babelrc文件，babel的配置文件，使用babel编译React和JavaScript代码；
+eslintrc和eslintignore分别为eslint语法检测配置及需要忽略检查的内容或文件；
+postcss.config.js为CSS后编译器postcss的配置文件；
+API.md为API文档入口；
+docs为文档目录；
+README.md为项目说明文档；
