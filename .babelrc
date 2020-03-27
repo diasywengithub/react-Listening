@@ -1,12 +1,17 @@
 {
-    "presets": ["es2015","react"],
+
+    "presets": [["@babel/preset-env", { "corejs": "2", "useBuiltIns": "usage" }],
+    "@babel/preset-react"],
     "plugins": [
-        "transform-runtime",
-        "import",
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-proposal-class-properties",
+        [
+            "import",
         {
-          "style": "../styles", 
-          "libraryDirectory": "", 
-          "libraryName": "material-ui" 
+          "libraryName": "antd" ,
+          "libraryDirectory": "es",
+           "style": "css"
         }
+    ]
     ]
 }
